@@ -1,0 +1,139 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>AgriFood Connect</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+  <script>
+    // Responsive Menu Toggle
+    function toggleMenu() {
+      const menu = document.getElementById('menu');
+      menu.classList.toggle('hidden');
+    }
+  </script>
+</head>
+<body class="font-roboto bg-gray-100">
+
+  <header class="bg-green-600 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">AgriFood Connect</h1>
+      <button class="lg:hidden p-2 text-white" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+      </button>
+      <nav id="menu" class="lg:flex hidden space-x-4">
+        <ul class="flex space-x-4">
+          <li><a class="hover:underline" href="#market">Market</a></li>
+          <li><a class="hover:underline" href="#education">Education</a></li>
+          <li><a class="hover:underline" href="#waste-reduction">Waste Reduction</a></li>
+          <li><a class="hover:underline" href="#partnerships">Partnerships</a></li>
+          <li><a class="hover:underline" href="#metrics">Metrics</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mx-auto p-4">
+    <section class="my-8" id="market">
+      <h2 class="text-3xl font-bold mb-4">Virtual Farmers' Market</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div class="bg-white p-4 rounded shadow">
+          <img alt="Fresh fruits and vegetables" src="https://storage.googleapis.com/a1aa/image/u9NEKIIIgB66FhiWsrpfEod1YmEFCe3A9nBRxcnmWK4wkg3TA.jpg" width="300"/>
+          <h3 class="text-xl font-bold mt-2">Fresh Produce</h3>
+          <p>Buy fresh fruits and vegetables directly from local farmers.</p>
+        </div>
+        <div class="bg-white p-4 rounded shadow">
+          <img alt="Dairy products" src="https://storage.googleapis.com/a1aa/image/ExNbHozWtm7aDBRURJVG4sC7dCvxwjaBibwspJeBbNfjkg3TA.jpg" width="300"/>
+          <h3 class="text-xl font-bold mt-2">Dairy Products</h3>
+          <p>Get high-quality dairy products delivered to your doorstep.</p>
+        </div>
+        <div class="bg-white p-4 rounded shadow">
+          <img alt="Herbs and spices" src="https://storage.googleapis.com/a1aa/image/PQWxuw5aVV5CEdHIe54yhtdMGdmEDc6leSoz78DaGqlpkg3TA.jpg" width="300"/>
+          <h3 class="text-xl font-bold mt-2">Herbs & Spices</h3>
+          <p>Discover a wide range of fresh herbs and spices.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-8" id="education">
+      <h2 class="text-3xl font-bold mb-4">Educational Resources</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="bg-white p-4 rounded shadow">
+          <img alt="Webinars" src="https://storage.googleapis.com/a1aa/image/rin8a62VcnIvCFNf7KbVTTgefg1TIPUgutnZIkdel4b8RCeeE.jpg" width="300"/>
+          <h3 class="text-xl font-bold mt-2">Webinars</h3>
+          <p>Join our webinars on sustainable farming practices and more.</p>
+        </div>
+        <div class="bg-white p-4 rounded shadow">
+          <img alt="Videos" src="https://storage.googleapis.com/a1aa/image/v9BfvRR0cBScek6LoVeeAg0iLs1Gngu6WC2oplQEungVTCeeE.jpg" width="300"/>
+          <h3 class="text-xl font-bold mt-2">Videos</h3>
+          <p>Watch videos on seasonal eating and food preservation techniques.</p>
+        </div>
+        <div class="bg-white p-4 rounded shadow">
+          <img alt="Articles" src="https://storage.googleapis.com/a1aa/image/vysz22Xf7evhj0hCoOUcc5WYVwAr3Xa94ga0iM8cnrBskg3TA.jpg" width="300"/>
+          <h3 class="text-xl font-bold mt-2">Articles</h3>
+          <p>Read articles on urban gardening and cooking with seasonal ingredients.</p>
+        </div>
+        <div class="bg-white p-4 rounded shadow">
+          <img alt="Workshops" src="https://storage.googleapis.com/a1aa/image/ED14V81cs16qLVcwvLoL3ADLCKF6eM0FLKYmEvuzaA1QSw7JA.jpg" width="300"/>
+          <h3 class="text-xl font-bold mt-2">Workshops</h3>
+          <p>Attend workshops on composting and sustainable consumption.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-8" id="waste-reduction">
+      <h2 class="text-3xl font-bold mb-4">Food Waste Reduction Initiatives</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4">
+        <div class="bg-white p-4 rounded shadow">
+          <img alt="Food Waste Tracking" src="https://storage.googleapis.com/a1aa/image/fWPIQK852E3QTyfyEQVaDO67GEacaOVutIBmaGQs30Rlkg3TA.jpg" width="300"/>
+          <h3 class="text-xl font-bold mt-2">Food Waste Tracking</h3>
+          <p>Track your food waste and receive personalized tips on reducing waste.</p>
+        </div>
+        <div class="bg-white p-4 rounded shadow">
+          <img alt="Food Donations" src="https://storage.googleapis.com/a1aa/image/A6lRl4eEATxkfErGQhVeCnNiNgWJtSYUBpwCoTH8hqKoJBvnA.jpg" width="300"/>
+          <h3 class="text-xl font-bold mt-2">Food Donations</h3>
+          <p>Partner with local organizations to facilitate food donations to communities in need.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-8" id="partnerships">
+      <h2 class="text-3xl font-bold mb-4">Local Partnerships</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div class="bg-white p-4 rounded shadow">
+          <img alt="Community Centers" src="https://storage.googleapis.com/a1aa/image/anZBbGdGJ2rxGRWwO6slevwqOUZYGC78S7rB0fByfewJTCeeE.jpg" width="300"/>
+          <h3 class="text-xl font-bold mt-2">Community Centers</h3>
+          <p>Collaborate with local community centers to promote healthy eating and sustainable agriculture.</p>
+        </div>
+        <div class="bg-white p-4 rounded shadow">
+          <img alt="Schools" src="https://storage.googleapis.com/a1aa/image/GRmZJvkiVf1YPqhjPb5WAbrKwOKsDhgZXWzgwaxhnXvTSw7JA.jpg" width="300"/>
+          <h3 class="text-xl font-bold mt-2">Schools</h3>
+          <p>Work with local schools to provide educational programs about sustainable agriculture.</p>
+        </div>
+        <div class="bg-white p-4 rounded shadow">
+          <img alt="Health Organizations" src="https://storage.googleapis.com/a1aa/image/AxXdCUlwfet6c0Wo0VOKteE1G7KcymFr25IMsaTItAgcJBvnA.jpg" width="300"/>
+          <h3 class="text-xl font-bold mt-2">Health Organizations</h3>
+          <p>Partner with health organizations to promote nutrition and wellness.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-8" id="metrics">
+      <h2 class="text-3xl font-bold mb-4">Sustainability Metrics</h2>
+      <div class="bg-white p-4 rounded shadow">
+        <img alt="Sustainability Metrics" src="https://storage.googleapis.com/a1aa/image/MfjHOfDb9kgwZEgFNTWahSKzhI0FRJqip4XeLrZFtEFXJBvnA.jpg" width="300"/>
+        <h3 class="text-xl font-bold mt-2">Environmental Impact</h3>
+        <p>Track the environmental impact of your purchases, including carbon footprint reduction and water conservation.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-green-600 text-white p-4 mt-8">
+    <div class="container mx-auto text-center">
+      <p>© 2024 AgriFood Connect. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
